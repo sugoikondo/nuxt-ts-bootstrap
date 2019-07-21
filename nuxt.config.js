@@ -49,6 +49,10 @@ export default {
     /*
      ** You can extend webpack config here
      */
+    typeCheck: true,
+    extractCSS: true,
+    optimizeCSS: true,
+    indicator: true,
     extend(config, ctx) {}
   }
 }
