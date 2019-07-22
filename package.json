@@ -1,7 +1,7 @@
 {
-  "name": "hb-annex-nuxt",
+  "name": "nuxt-ts-bootstrap",
   "version": "1.0.0",
-  "description": "hb-annex form implementation by Nuxt.js and TypeScript.",
+  "description": "Startup template by Nuxt.js and TypeScript, Pug(Jade) and Stylus.",
   "author": "atsumine.kondo",
   "private": true,
   "scripts": {
@@ -47,6 +47,7 @@
     "pug-plain-loader": "^1.0.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
+    "ts-node": "^8.3.0",
     "vue-jest": "^3.0.3"
   }
 }

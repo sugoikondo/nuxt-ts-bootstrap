@@ -3,10 +3,10 @@
     <div>
       <logo />
       <h1 class="title">
-        hb-annex-nuxt
+        nuxt-ts-bootstrap
       </h1>
       <h2 class="subtitle">
-        hb-annex form implementation by Nuxt.js and TypeScript.
+        sugoi Nuxt template
       </h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">

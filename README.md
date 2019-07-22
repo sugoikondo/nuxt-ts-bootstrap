@@ -1,8 +1,5 @@
-# hb-annex-nuxt
-
-> hb-annex form implementation by Nuxt.js and TypeScript.
-
-## Build Setup
+# nuxt-ts-bootstrap
+## Build setup
 
 ``` bash
 # install dependencies
