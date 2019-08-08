@@ -1,3 +1,5 @@
+const resolve = require('path').resolve
+
 export default {
   mode: 'spa',
   /*
@@ -23,7 +25,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [ 'ress' ],
   /*
    ** Plugins to load before mounting the App
    */
@@ -35,7 +37,11 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    ['nuxt-stylus-resources-loader', [
+      resolve(__dirname, 'assets/css/main.styl'),
+    ]]
+
   ],
   /*
    ** Axios module configuration
