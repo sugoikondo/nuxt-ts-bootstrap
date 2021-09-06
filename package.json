@@ -14,7 +14,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/axios": "^5.12.3",
     "@nuxtjs/pwa": "3.0.0-beta.6",
     "nuxt": "^2.8.1",
     "nuxt-stylus-resources-loader": "^2.0.0",
