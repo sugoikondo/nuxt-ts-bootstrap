@@ -11,16 +11,19 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/axios": "^5.12.3",
     "@nuxtjs/pwa": "3.0.0-beta.6",
-    "nuxt": "^2.8.1",
+    "nuxt": "^2.12.0",
     "nuxt-stylus-resources-loader": "^2.0.0",
     "ress": "^1.2.2",
     "vue-property-decorator": "^8.2.1",
-    "vuex-class": "^0.3.2"
+    "vuex-class": "^0.3.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@nuxt/typescript": "^2.8.1",
@@ -53,5 +56,6 @@
     "stylus-loader": "^3.0.2",
     "ts-node": "^8.3.0",
     "vue-jest": "^3.0.3"
-  }
+  },
+  "snyk": true
 }
